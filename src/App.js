@@ -3,6 +3,8 @@ import './App.css';
 
 function App() {
   return (
+    <>
+    <h1>This my home page </h1>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -15,10 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <h1> Learn React with mahi</h1>
         </a>
       </header>
     </div>
+    </>
   );
 }
 
